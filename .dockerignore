@@ -1,0 +1,13 @@
+# Tidak dibutuhkan di dalam image build
+node_modules
+dist
+build
+.git
+.gitattributes
+.gitignore
+*.log
+*.tsbuildinfo
+Tooling Movement Tracker.zip
+
+# NOTE: folder .figma/ TIDAK boleh di-ignore —
+# vite.config.ts mengimpor .figma/make/site.json saat build.
