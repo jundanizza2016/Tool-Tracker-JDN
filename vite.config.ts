@@ -33,6 +33,8 @@ export default defineConfig(({ mode }) => {
       host: '0.0.0.0',
       port: parseInt(process.env.PORT || '8443'),
       strictPort: true,
+      // Izinkan akses lewat host eksternal (tunnel/domain lain), mis. trycloudflare.com.
+      allowedHosts: true,
       watch: { ignored: ['**/.figma/**'] },
     },
     preview: {
