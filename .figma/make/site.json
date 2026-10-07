@@ -1,0 +1,10 @@
+{
+  "description": "Track and monitor tooling movement in real-time to optimize inventory management and improve operational efficiency for manufacturing teams.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
